@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html> 
+<head>
+<title>Agenda</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">		
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container">
+<h3>Agenda</h3>
+<form action="mandar_bbdd.php" method="post">
+Nombre: <input type="text" class="form-control" name="nombre"><br>
+Telefono: <input type="text" class="form-control" name="telefono"><br><br>
+<input type="submit" value="Enviar datos" class="btn btn-success"><br><br>
+</form>
+<form action="mostrar_agenda.php" method="post">
+<input type="submit" value="Mostrar agenda" class="btn btn-info">
+</form>
+</div>
+</body>
+</html>
